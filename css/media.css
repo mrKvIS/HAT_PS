@@ -1,0 +1,49 @@
+
+
+@media only screen and (max-width: 330px) {
+	body {
+		font-size:55%;
+	}
+}
+
+@media only screen and (min-width: 331px) {
+	body {
+		font-size:65%;
+	}
+}
+
+@media only screen and (min-width: 551px) {
+	body {
+		font-size:75%;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+		body {
+		font-size:87%;
+	}
+	.top-menu {
+		display: block;
+	}
+	.top-menu-brg {
+		display: none;
+	}
+	.text-scren2 {
+		padding: 0 0 0 3em;
+	}
+	.pading-scren2-img {
+	padding: 0 0 0 1em;
+	}
+	.bg-scren2 {
+	max-height: 100%
+	}
+}
+
+@media only screen and (min-width: 1920px) {
+	body {
+		font-size:120%;
+	}
+	.top-menu {
+		height: 70px;
+	}	
+}
